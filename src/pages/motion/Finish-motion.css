@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif; /* Change to your preferred font */
+    margin: 0;
+    padding: 0;
+    background: #7c89ed;
+  }
+  
+  .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 70%;
+    background: #fff;
+    padding: 2em;
+    border-radius: 2em;
+  }
+  .header {
+    padding: 0.5em 2em;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Faradis-quiz {
+    font-weight: bold;
+  }
+  .have-acc {
+    color: rgb(0,0,0,0.5);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .have-acc:hover {
+    color: rgb(0,0,0,0.3)
+  }
+  .game-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+  }
+  img.profile {
+    border: 1px solid #000;
+    margin: 0;
+    width: 2em;
+    height: 2em;
+    object-fit: contain;
+    border-radius: 1000px;
+    cursor: pointer;
+  }
+  .image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main .utama {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 0;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  i {
+    color: #7c89ed;
+    cursor: pointer;
+    width: fit-content;
+  }
+  i:hover {
+    color: rgb(123,136,239,0.8);
+  }
+  button.motion {
+    background: rgb(20,182,255);
+    padding: 0.5em 2em;
+    border: none;
+    width: fit-content;
+    border-radius: 2em;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+  button.motion:hover {
+    background: rgb(20,182,255,0.7);;
+  }
+  label {
+    color: #555;
+    font-size: 0.8em;
+  }
+  input {
+    width: 100%;
+    padding: 0.5em 1em;
+    border: 1px solid rgb(0,0,0,0.3);
+  }
+  .social-media div {
+    color: rgb(0,0,0,0.3);
+  }
+  h4 {
+    color: rgb(0,0,0,0.3);
+  }
+  .social-media {
+    display: flex;
+    gap: 1em;
+    padding: 1em 0em;
+  }
+  .Faradis-quiz {
+    font-size: 1.5em;
+    color: #7c89ed;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .profile {
+    display: flex;
+    gap: 0.7em;
+    align-items: center;
+  }
+  .dropdown {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .icon {
+    width: 0;
+    height: 0;
+    margin-left: 8px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #333; /* Change color here */
+    transition: transform 0.2s ease-in-out;
+  }
+  .dropdown:hover .icon {
+    transform: rotate(90deg); /* Rotate on hover */
+  }
+.name {
+    cursor: pointer;
+    color: rgb(0,0,6,0.4);
+}
+.box {
+    padding: 3em 2em;
+    color: #fff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+}
+.web-container-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 2em;
+}
+.box1 {
+    background: #8340ff;
+    cursor: pointer;
+}
+.box2 {
+    background: #14b6ff;
+    cursor: pointer;
+}
+.box3 {
+    background: #ef3c78;
+    cursor: pointer;
+}
+.box4 {
+    background: #fe6332;
+    cursor: pointer;
+
+}
+.box5 {
+    background: #4aaf47;
+    cursor: pointer;
+}
+.box1:hover {
+    background: rgb(133,64,255,0.7);
+}
+.box2:hover {
+    background: rgb(20,182,255,0.7);
+}
+.box3:hover {
+    background: rgb(238,41,108,0.7);
+}
+.box4:hover {
+    background: rgb(255,99,50,0.7);
+}
+.box5:hover {
+    background: rgb(75,174,73,0.7);
+}
+p {
+    font-size: 0.7em;
+    color: rgb(255,255,255,0.6);
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.box-answer {
+    padding: 1em;
+    background: #fff;
+    border: 1px solid #7c89ed;
+    width: 50%;
+    cursor: pointer;
+    display: flex;
+    gap: 1em;
+}
+.box-answer:hover {
+    color: #7c89ed;
+    background: rgb(134,62,255,0.08);
+}
+input[type = "radio"] {
+    width: 1em;
+    accent-color: #7c89ed;
+    border: 1px solid #7c89ed;
+}
+.web-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    font-weight: bold;
+    gap: 1em;
+}
+.web-level {
+    font-size: 2em;
+    color: #7c89ed;
+}
+.finish-web-category {
+    color: rgb(0,0,0,0.4)
+}
+.no-deco {
+    text-decoration: none;
+    color: #fff;
+}
+.no-deco.home {
+    color: #fff;
+}
+.no-deco.home:hover {
+    color: #fff;
+}
