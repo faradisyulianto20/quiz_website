@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "homepage": "https://github.com/faradisyulianto20/quiz_website",
+  "homepage": "https://faradisyulianto20.github.io/quiz_website",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
